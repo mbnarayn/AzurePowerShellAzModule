@@ -26,7 +26,7 @@ Get-AzSubscription
 ```
 Get-AzContext
 ```
-### Change Subscription Context
+### Change subscription context
 ```
 Set-AzContext -SubscriptionName "Company Subscription"
 ```
@@ -34,4 +34,9 @@ Set-AzContext -SubscriptionName "Company Subscription"
 ```
 Get-AzResource
 ```
+### Create a Resource Group
+```
+New-AzResourceGroup -Name MyResourceGroup -Location uksouth
+```
+
 
