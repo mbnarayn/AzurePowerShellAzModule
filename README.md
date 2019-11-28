@@ -14,3 +14,24 @@ Because of how the Az module is packaged, the Update-Module command won't update
 ```
 Install-Module -Name Az -AllowClobber -Force
 ```
+### Sign in with Azure PowerShell
+```
+Connect-AzAccount
+```
+### Get subscriptions that the current account can access
+```
+Get-AzSubscription
+```
+### Show currently selected Azure subscription
+```
+Get-AzContext
+```
+### Change Subscription Context
+```
+Set-AzContext -SubscriptionName "Company Subscription"
+```
+### List all resources in a subscription
+```
+Get-AzResource
+```
+
